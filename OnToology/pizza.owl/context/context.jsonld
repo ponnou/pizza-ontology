@@ -1,0 +1,372 @@
+{
+  "@context" : {
+    "OnionTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#OnionTopping"
+    },
+    "SweetPepperTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#SweetPepperTopping"
+    },
+    "SultanaTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#SultanaTopping"
+    },
+    "CajunSpiceTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#CajunSpiceTopping"
+    },
+    "Rosa" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#Rosa"
+    },
+    "PepperTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#PepperTopping"
+    },
+    "FourSeasons" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#FourSeasons"
+    },
+    "Soho" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho"
+    },
+    "DeepPanBase" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#DeepPanBase"
+    },
+    "hasTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#hasTopping",
+      "@type" : "@id"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "CaperTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#CaperTopping"
+    },
+    "isToppingOf" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#isToppingOf",
+      "@type" : "@id"
+    },
+    "MozzarellaTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "ChickenTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#ChickenTopping"
+    },
+    "MeatTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#MeatTopping"
+    },
+    "Country" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#Country"
+    },
+    "PineKernels" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#PineKernels"
+    },
+    "ThinAndCrispyPizza" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#ThinAndCrispyPizza"
+    },
+    "RedOnionTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#RedOnionTopping"
+    },
+    "SpicyTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#SpicyTopping"
+    },
+    "Food" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#Food"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "hasSpiciness" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#hasSpiciness",
+      "@type" : "@id"
+    },
+    "HotGreenPepperTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#HotGreenPepperTopping"
+    },
+    "AsparagusTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#AsparagusTopping"
+    },
+    "SundriedTomatoTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#SundriedTomatoTopping"
+    },
+    "SpicyPizza" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#SpicyPizza"
+    },
+    "Fiorentina" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#Fiorentina"
+    },
+    "VegetarianPizzaEquivalent2" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetarianPizzaEquivalent2"
+    },
+    "TomatoTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"
+    },
+    "Medium" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#Medium"
+    },
+    "PeperoniSausageTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#PeperoniSausageTopping"
+    },
+    "SauceTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping"
+    },
+    "ParmaHamTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#ParmaHamTopping"
+    },
+    "SlicedTomatoTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#SlicedTomatoTopping"
+    },
+    "isBaseOf" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#isBaseOf",
+      "@type" : "@id"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "ThinAndCrispyBase" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#ThinAndCrispyBase"
+    },
+    "CheeseyVegetableTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#CheeseyVegetableTopping"
+    },
+    "Pizza" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#Pizza"
+    },
+    "Cajun" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#Cajun"
+    },
+    "MixedSeafoodTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#MixedSeafoodTopping"
+    },
+    "PizzaTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaTopping"
+    },
+    "GoatsCheeseTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#GoatsCheeseTopping"
+    },
+    "PeperonataTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#PeperonataTopping"
+    },
+    "VegetarianPizza" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetarianPizza"
+    },
+    "RocketTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#RocketTopping"
+    },
+    "Mild" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#Mild"
+    },
+    "NutTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#NutTopping"
+    },
+    "FishTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#FishTopping"
+    },
+    "GorgonzolaTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#GorgonzolaTopping"
+    },
+    "Parmense" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#Parmense"
+    },
+    "SpicyPizzaEquivalent" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#SpicyPizzaEquivalent"
+    },
+    "IceCream" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#IceCream"
+    },
+    "PetitPoisTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#PetitPoisTopping"
+    },
+    "JalapenoPepperTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#JalapenoPepperTopping"
+    },
+    "PrawnsTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#PrawnsTopping"
+    },
+    "GreenPepperTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#GreenPepperTopping"
+    },
+    "ValuePartition" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#ValuePartition"
+    },
+    "LaReine" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#LaReine"
+    },
+    "InterestingPizza" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#InterestingPizza"
+    },
+    "American" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#American"
+    },
+    "VegetableTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetableTopping"
+    },
+    "MushroomTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#MushroomTopping"
+    },
+    "ParmesanTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#ParmesanTopping"
+    },
+    "SloppyGiuseppe" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#SloppyGiuseppe"
+    },
+    "OliveTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#OliveTopping"
+    },
+    "CheeseTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#CheeseTopping"
+    },
+    "Siciliana" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#Siciliana"
+    },
+    "HotSpicedBeefTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#HotSpicedBeefTopping"
+    },
+    "LeekTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#LeekTopping"
+    },
+    "PizzaBase" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaBase"
+    },
+    "HamTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#HamTopping"
+    },
+    "Capricciosa" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#Capricciosa"
+    },
+    "definition" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "hasIngredient" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#hasIngredient",
+      "@type" : "@id"
+    },
+    "Margherita" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#Margherita"
+    },
+    "FruttiDiMare" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#FruttiDiMare"
+    },
+    "hasBase" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#hasBase",
+      "@type" : "@id"
+    },
+    "TobascoPepperSauce" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#TobascoPepperSauce"
+    },
+    "CheeseyPizza" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#CheeseyPizza"
+    },
+    "DomainConcept" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#DomainConcept"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "UnclosedPizza" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza"
+    },
+    "RosemaryTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#RosemaryTopping"
+    },
+    "ArtichokeTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#ArtichokeTopping"
+    },
+    "NonVegetarianPizza" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#NonVegetarianPizza"
+    },
+    "isIngredientOf" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#isIngredientOf",
+      "@type" : "@id"
+    },
+    "AnchoviesTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#AnchoviesTopping"
+    },
+    "Hot" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#Hot"
+    },
+    "provenance" : {
+      "@id" : "http://purl.org/dc/terms/provenance"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "RealItalianPizza" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#RealItalianPizza"
+    },
+    "FruitTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#FruitTopping"
+    },
+    "SpinachTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#SpinachTopping"
+    },
+    "hasCountryOfOrigin" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#hasCountryOfOrigin",
+      "@type" : "@id"
+    },
+    "AmericanHot" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#AmericanHot"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "MeatyPizza" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#MeatyPizza"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/terms/contributor"
+    },
+    "GarlicTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#GarlicTopping"
+    },
+    "QuattroFormaggi" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#QuattroFormaggi"
+    },
+    "FourCheesesTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#FourCheesesTopping"
+    },
+    "VegetarianPizzaEquivalent1" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetarianPizzaEquivalent1"
+    },
+    "Spiciness" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#Spiciness"
+    },
+    "PolloAdAstra" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#PolloAdAstra"
+    },
+    "Veneziana" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana"
+    },
+    "PrinceCarlo" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#PrinceCarlo"
+    },
+    "Caprina" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#Caprina"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "NamedPizza" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#NamedPizza"
+    },
+    "HerbSpiceTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#HerbSpiceTopping"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "Mushroom" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#Mushroom"
+    },
+    "Giardiniera" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#Giardiniera"
+    },
+    "VegetarianTopping" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetarianTopping"
+    },
+    "Napoletana" : {
+      "@id" : "http://www.co-ode.org/ontologies/pizza/pizza.owl#Napoletana"
+    }
+  }
+}
