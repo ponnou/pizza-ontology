@@ -1,0 +1,12 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+<http://www.co-ode.org/ontologies/pizza/2.0.0> a prov:Entity;
+	 dc:title "pizza";
+	 prov:wasAttributedTo [ a prov:Agent; foaf:name "Alan Rector".];
+	 prov:wasAttributedTo [ a prov:Agent; foaf:name "Chris Wroe".];
+	 prov:wasAttributedTo [ a prov:Agent; foaf:name "Matthew Horridge".];
+	 prov:wasAttributedTo [ a prov:Agent; foaf:name "Nick Drummond".];
+	 prov:wasAttributedTo [ a prov:Agent; foaf:name "Robert Stevens".];
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+.
